@@ -11,9 +11,9 @@
 
 ## **Project Breakdown**
 1. **Data Extraction**
-   - Data is extracted from Postgre SQL in the form of CSV file.
+   - Data is extracted from Postgree Database in the form of CSV file.
    - Uploaded these CSV files in Staging on Snowflake
-   - Data is the loaded into tables in staging schema first.
+   - Data is then loaded into tables in staging schema first.
 
 2. **Data Transformation**
    - Data is then merged into another tables in Cleaned Schema.
