@@ -9,6 +9,12 @@
  - It Covers the full lifecycle from ingestion of raw data to analytics-ready models and a visual interface using Streamlit.
  - It follows the Madellion Architecture like concept where Stage, clean and consumption schema behave as bronze, Silver and Consumtption layer respectively. 
 
+**Source Data in the form of ER Model (in Postgree Table)**
+ ![logo](https://github.com/codeSavvy-ln/Snowflake/blob/main/Swiggy%20Data%20Pipeline/ER-Source%20data.png) 
+
+**Final Data in the form of Dimenional Modelling (in Consumption layer in snowflake)**
+ ![logo](https://github.com/codeSavvy-ln/Snowflake/blob/main/Swiggy%20Data%20Pipeline/Dimesional%20modeling%20-%20Loaded%20data.png)
+
 ## **Project Breakdown**
 1. **Data Extraction**
    - Data is extracted from Postgree Database in the form of CSV file.
